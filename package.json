@@ -1,0 +1,19 @@
+{
+  "name": "commandr",
+  "version": "0.0.1",
+  "description": "A CLI to automatize my repetitive tasks",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abner",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.9.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.3.3"
+  }
+}
