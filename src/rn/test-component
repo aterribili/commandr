@@ -1,0 +1,10 @@
+import React from 'react';
+import renderer from 'react-test-renderer';
+import {ComponentName} from 'your-path';
+
+test('Should validate {ComponentName} tree', () => {
+  let target = (<{ComponentName} />);
+  let tree = renderer.create(target).toJSON();
+  expect(tree).toMatchSnapShot();
+});
+
