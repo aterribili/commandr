@@ -2,9 +2,8 @@
   "name": "commandr",
   "version": "0.0.1",
   "description": "A CLI to automatize my repetitive tasks",
-  "main": "index.js",
+  "main": "lib/abner.js",
   "scripts": {
-    "install": "npm install -g",
     "build": "rm -rf lib/ && babel src -d lib && cp src/rn/component lib/rn && cp src/rn/test-component lib/rn",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
